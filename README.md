@@ -13,6 +13,19 @@ Usage
 * The ```-p``` flag will pause the machine after each CPU cycle
 * The ```-d``` flag will dump the state of the machine after each CPU cycle
 
+Example
+--------------------
+The following program will add two numbers together and store the result in memory
+
+	LDV 102
+	LDV 203
+	ADD 312
+	STO	3FF
+	HLT 000
+
+	assembler/assembler -i add.s -o add.rom
+	./machine add.rom
+
 
 Specification
 --------------------
@@ -24,6 +37,7 @@ Specification
 * CPU has no clock to regulate it 
 * No floating point implementation
 * No support for overflow/carry flags 
+* ROMs are loaded and stored at memory address ``0x00```
 * Basic instruction set 
 
 <table style="font-size:0.8em; table-layout:fixed;">
