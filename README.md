@@ -37,7 +37,7 @@ Specification
 * CPU has no clock to regulate it 
 * No floating point implementation
 * No support for overflow/carry flags 
-* ROMs are loaded and stored at memory address ``0x00```
+* ROMs are loaded and stored at memory address ```0x00```
 * Basic instruction set 
 
 <table style="font-size:0.8em; table-layout:fixed;">
