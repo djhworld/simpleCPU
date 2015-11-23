@@ -809,7 +809,7 @@ Full program
 	20C0 // LOAD register 0 with the value C0
 	30F8 // STORE the value in register 0 into memory address F8
 	2000 // LOAD register 0 with the value 00
-	30F9 // STORE the value in register 0 into the memory address F8
+	30F9 // STORE the value in register 0 into the memory address F9
 
 **If we start the machine with its program counter containing F0, what does the machine do when it reaches the instruction at address F8?**
 
